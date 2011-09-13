@@ -7,13 +7,13 @@
 
 - Put the .py in the directory of gimp/plug-ins/
 - Add execution permissions.
-- In one image, Create 2 layers that represents the top & bottom view(usually the size of the cupper plate)
-- Both needs the same name and "top" and "bottom" for each.
-- Add all the boards as independent layers, event for bottom and top(the name for bottom and top again, the same with top and bottom)
-- Place all the bottom sides in the proper position of the bottom view.
-- Execute the script, PCB-> PCB Locator
-- In the text field, type: bottomview(bottomboard1,bottomboard2,bottomboard3, etc...)
-- All the top boards will be placed in to the topview layer, in the proper position(mirror, and translation).
+- In one image, Create 2 layers that represents the * top & bottom view * (usually the size of the cupper plate)
+- Both needs the same name and "top" and "bottom" for each.(ie: bottomview and topview)
+- Add all the PCB boards as independent layers, again, in the names has to be "top" and "bottom" words(ie:mypcbtop and mypcbbottom, etc...)
+- Place all the bottom sides in the proper position of the * bottom view *
+- Execute the script(should appear in the top bar), PCB-> PCB Locator
+- In the text field, type the command to do the action: ie: bottomview(mypcbbottom1,mypcbbottom2,mypcbbottom3, etc...)
+- All the top boards will be placed in to the * top view * layer, in the proper position(mirror, and translation).
 
 ** TODO:
 
